@@ -11,5 +11,6 @@ namespace BLL.Services.Interfaces
         public Task<ProductDto> CreateProduct(CreateProductDto createProductDto);
 
         public Task<bool>  DeleteProduct(int id);
+
     }
 }
